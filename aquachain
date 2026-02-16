@@ -1,0 +1,42 @@
+```json
+{
+  "chain_name": "AquaChain Protocol",
+  "chain_id": 42156,
+  "symbol": "AQUA",
+  "decimals": 18,
+  "programming_language": "TypeScript",
+  
+  "supply": {
+    "genesis_supply": 2000000,
+    "max_supply": 10000000,
+    "circulating_supply": 2000000
+  },
+  
+  "block_details": {
+    "block_time": 10,
+    "block_reward": 8,
+    "halving_interval": 210000,
+    "halving_count": 0,
+    "current_block_reward": 8
+  },
+  
+  "consensus": {
+    "type": "Delegated Proof of Stake",
+    "validators": 21,
+    "minimum_stake": 15000
+  },
+  
+  "network": {
+    "network_type": "testnet",
+    "launch_date": "2026-02-16",
+    "rpc_url": "https://aquachain.testnet.canopy.network",
+    "explorer_url": "https://explorer.aquachain.network"
+  },
+  
+  "project_info": {
+    "creator": "Misagh95",
+    "github": "https://github.com/Misagh95",
+    "description": "Ocean conservation and marine research blockchain",
+    "category": "Environment"
+  }
+}
